@@ -13,13 +13,15 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Generate contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: "pacman"
+          games: "pacman,galaga"
+          hide_month_labels: "false"
 
       - name: Push SVGs
         uses: crazy-max/ghaction-github-pages@v3.1.0
