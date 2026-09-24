@@ -1,5 +1,3 @@
-<img src="https://komarev.com/ghpvc/?username=GabrielFachinello09&style=flat-square&color=161B22&label=VISUALIZAÇÕES+DE+PERFIL" />
-
 
 <img
   alt="Pac-Man contribution graph"
